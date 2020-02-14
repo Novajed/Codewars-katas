@@ -4,7 +4,7 @@ public class Vowels {
 
   public static int getCount(String str) {
     int vowelsCount = 0;
-    // your code here
+    
     char[] vowels = {'a','e','i','o','u'};
     
     for(int i = 0; i < str.length(); i++ ) {
